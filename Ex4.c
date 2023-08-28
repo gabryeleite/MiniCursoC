@@ -3,20 +3,20 @@
 
 int main()
 {
-    float base, altura, area, perimetro, diagonal;
+    double base, altura, area, perimetro, diagonal;
 
     printf("Base do retangulo: ");
-    scanf("%f", &base);
+    scanf("%lf", &base);
     printf("Altura do retangulo: ");
-    scanf("%f", &altura);
+    scanf("%lf", &altura);
 
     area = base * altura;
     perimetro = 2 * (base + altura);
     diagonal = sqrt(pow(base, 2) + pow(altura, 2));
 
-    printf("Area = %.4f\n", area);
-    printf("Perimetro = %.4f\n", perimetro);
-    printf("Diagonal = %.4f\n", diagonal);
+    printf("Area = %.4lf\n", area);
+    printf("Perimetro = %.4lf\n", perimetro);
+    printf("Diagonal = %.4lf\n", diagonal);
 
     return 0;
 }
