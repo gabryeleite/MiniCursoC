@@ -4,5 +4,5 @@ Neste repositório terão os códigos dos exercícios feitos durante as aulas e 
 
 ## Aulas: 
 - [1° Dia](https://github.com/gabryeleite/MiniCursoC/tree/main/Aula%2001) (28/08)
-- [2° Dia]()
+- [2° Dia](https://github.com/gabryeleite/MiniCursoC/tree/main/Aula%2002) (30/08)
 - [3° Dia]()
