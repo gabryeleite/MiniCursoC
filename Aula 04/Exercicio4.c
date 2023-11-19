@@ -21,6 +21,7 @@ int main()
 
         printf("Digite as duas notas: ");
         scanf("%f %f", &a[i].nota1, &a[i].nota2); // le as notas e armazena na estrutura Aluno de indice 'i'
+        getchar();
 
         a[i].media = (a[i].nota1 + a[i].nota2) / 2.0; // calcula a media e armazena na estrutura Aluno de indice 'i'
     }
@@ -28,7 +29,7 @@ int main()
     for(int i = 0; i < 3; i++) { // Laço(for) 3 vezes para a impressao
         printf("\nAluno %d:\n", i + 1); // Aluno 1, Aluno 2, Aluno 3
         
-        printf("Nome: %s\nMedia: %.2f", a[i].nome, a[i].media);
+        printf("Nome: %s\nMedia: %.2f\n", a[i].nome, a[i].media);
         // Impressao do nome e a da media do Aluno na posição(indice) 'i'
     }
 
