@@ -25,7 +25,7 @@ int main()
         a[i].media = (a[i].nota1 + a[i].nota2) / 2.0; // calcula a media e armazena na estrutura Aluno de indice 'i'
     }
 
-    for(int i = 0; i < 3; i++) { // Laço(for) 4 vezes para a impressao
+    for(int i = 0; i < 3; i++) { // Laço(for) 3 vezes para a impressao
         printf("\nAluno %d:\n", i + 1); // Aluno 1, Aluno 2, Aluno 3
         
         printf("Nome: %s\nMedia: %.2f", a[i].nome, a[i].media);
