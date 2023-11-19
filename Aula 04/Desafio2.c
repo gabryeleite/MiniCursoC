@@ -14,7 +14,7 @@ int main()
 {
     Atleta a[3]; // Declarando vetor do tipo Atleta de tamanho 3
     float maiorAltura, maiorPeso;
-    char nomeAlto[40], nomePesado[40];
+    char nomeAlto[40], nomePesado[40]; 
 
     for(int i = 0; i < 3; i++) { // Laço(for) 3 vezes para a leitura
         printf("Atleta %d:\n", i + 1); // Atleta 1, Atleta 2, Atleta 3
@@ -29,13 +29,13 @@ int main()
         scanf("%f", &a[i].peso); // le o peso e armazena na estrutura Atleta de indice 'i'
         getchar();
 
-        if(i == 0 || a[i].altura > maiorAltura) {
+        if(i == 0 || a[i].altura > maiorAltura) { // se for a primeira verificação(i == 0) ou a a[i].altura > maiorAltura
             maiorAltura = a[i].altura;
-            strcpy(nomeAlto, a[i].nome);
+            strcpy(nomeAlto, a[i].nome); // nomeAlto recebe a[i].nome (nome da pessoa mais alta)
         }
-        if(i == 0 || a[i].peso > maiorPeso) {
+        if(i == 0 || a[i].peso > maiorPeso) { // se for a primeira verificação(i == 0) ou a a[i].peso > maiorPeso
             maiorPeso = a[i].peso;
-            strcpy(nomePesado, a[i].nome);
+            strcpy(nomePesado, a[i].nome); // nomePesado recebe a[i].nome (nome da pessoa mais pesada)
         }
     }
 
@@ -46,6 +46,7 @@ int main()
         // Impressao do nome, altura e peso do Atleta na posição(indice) 'i'
     }
 
+    // Impressao das pessoas mais alta e pesada
     printf("\nAtleta mais alto: %s com %.2f metros\n", nomeAlto, maiorAltura);
     printf("Atleta mais pesado: %s com %.2f Kg\n", nomePesado, maiorPeso);
 
