@@ -1,4 +1,5 @@
-// Leitura e impressao de matriz em C
+// Faça a leitura e impressao de uma matriz, imprima também a soma dos valores de cada linha,
+// armazene a soma dos valores das linhas em um vetor (o tamanho do vetor é o mesmo do numero de linhas)
 #include <stdio.h>
 
 int main()
