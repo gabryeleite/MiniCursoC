@@ -8,7 +8,7 @@ Neste repositório terão os códigos dos exercícios feitos durante as aulas e 
 - 3° Dia: [Aula03](https://github.com/gabryeleite/MiniCursoC/tree/main/Aula%2003) (01/09)
 
 ## Parte II: 
-- 1° Dia: [Aula04]() (20/11)
+- 1° Dia: [Aula04](https://github.com/gabryeleite/MiniCursoC/tree/main/Aula%2004) (20/11)
 - 2° Dia: [Aula05]() (21/11)
 - 3° Dia: [Aula06]() (23/11)
 
