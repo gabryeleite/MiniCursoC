@@ -14,7 +14,7 @@ int main()
     Aluno a[3]; // Declarando vetor do tipo Aluno de tamanho 3
 
     for(int i = 0; i < 3; i++) { // Laço(for) 3 vezes para a leitura
-        print("Aluno %d:\n", i + 1); // Aluno 1, Aluno 2, Aluno 3
+        printf("Aluno %d:\n", i + 1); // Aluno 1, Aluno 2, Aluno 3
 
         printf("Digite o nome: ");
         scanf("%[^\n]", a[i].nome); // le o nome e armazena na estrutura Aluno de indice 'i'
